@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84AAFF6D1A00DDDB004564AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AAFF6C1A00DDDB004564AF /* main.m */; };
+		84AAFF761A00E10B004564AF /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AAFF751A00E10B004564AF /* Character.m */; };
+		84AAFF791A00E3F0004564AF /* Baraka.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AAFF781A00E3F0004564AF /* Baraka.m */; };
+		84AAFF7C1A00E425004564AF /* Cyrax.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AAFF7B1A00E425004564AF /* Cyrax.m */; };
+		84AAFF7F1A00E43E004564AF /* Ermac.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AAFF7E1A00E43E004564AF /* Ermac.m */; };
+		84AAFF821A00E464004564AF /* Goro.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AAFF811A00E464004564AF /* Goro.m */; };
+		84AAFF851A00E489004564AF /* Jade.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AAFF841A00E489004564AF /* Jade.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		84AAFF671A00DDDA004564AF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		84AAFF691A00DDDB004564AF /* MortalKombat */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MortalKombat; sourceTree = BUILT_PRODUCTS_DIR; };
+		84AAFF6C1A00DDDB004564AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84AAFF741A00E10B004564AF /* Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Character.h; sourceTree = "<group>"; };
+		84AAFF751A00E10B004564AF /* Character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Character.m; sourceTree = "<group>"; };
+		84AAFF771A00E3F0004564AF /* Baraka.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Baraka.h; sourceTree = "<group>"; };
+		84AAFF781A00E3F0004564AF /* Baraka.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Baraka.m; sourceTree = "<group>"; };
+		84AAFF7A1A00E425004564AF /* Cyrax.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cyrax.h; sourceTree = "<group>"; };
+		84AAFF7B1A00E425004564AF /* Cyrax.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cyrax.m; sourceTree = "<group>"; };
+		84AAFF7D1A00E43E004564AF /* Ermac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ermac.h; sourceTree = "<group>"; };
+		84AAFF7E1A00E43E004564AF /* Ermac.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ermac.m; sourceTree = "<group>"; };
+		84AAFF801A00E464004564AF /* Goro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Goro.h; sourceTree = "<group>"; };
+		84AAFF811A00E464004564AF /* Goro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Goro.m; sourceTree = "<group>"; };
+		84AAFF831A00E489004564AF /* Jade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Jade.h; sourceTree = "<group>"; };
+		84AAFF841A00E489004564AF /* Jade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Jade.m; sourceTree = "<group>"; };
+		84AAFF871A00EB2C004564AF /* Fighter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fighter.h; sourceTree = "<group>"; };
+		84AAFF881A00EB48004564AF /* Living.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Living.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84AAFF661A00DDDA004564AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84AAFF601A00DDDA004564AF = {
+			isa = PBXGroup;
+			children = (
+				84AAFF861A00EAB8004564AF /* Protocols */,
+				84AAFF731A00E0D2004564AF /* Models */,
+				84AAFF6B1A00DDDB004564AF /* MortalKombat */,
+				84AAFF6A1A00DDDB004564AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84AAFF6A1A00DDDB004564AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84AAFF691A00DDDB004564AF /* MortalKombat */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84AAFF6B1A00DDDB004564AF /* MortalKombat */ = {
+			isa = PBXGroup;
+			children = (
+				84AAFF6C1A00DDDB004564AF /* main.m */,
+			);
+			path = MortalKombat;
+			sourceTree = "<group>";
+		};
+		84AAFF731A00E0D2004564AF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				84AAFF741A00E10B004564AF /* Character.h */,
+				84AAFF751A00E10B004564AF /* Character.m */,
+				84AAFF771A00E3F0004564AF /* Baraka.h */,
+				84AAFF781A00E3F0004564AF /* Baraka.m */,
+				84AAFF7A1A00E425004564AF /* Cyrax.h */,
+				84AAFF7B1A00E425004564AF /* Cyrax.m */,
+				84AAFF7D1A00E43E004564AF /* Ermac.h */,
+				84AAFF7E1A00E43E004564AF /* Ermac.m */,
+				84AAFF801A00E464004564AF /* Goro.h */,
+				84AAFF811A00E464004564AF /* Goro.m */,
+				84AAFF831A00E489004564AF /* Jade.h */,
+				84AAFF841A00E489004564AF /* Jade.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		84AAFF861A00EAB8004564AF /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				84AAFF871A00EB2C004564AF /* Fighter.h */,
+				84AAFF881A00EB48004564AF /* Living.h */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84AAFF681A00DDDA004564AF /* MortalKombat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84AAFF701A00DDDB004564AF /* Build configuration list for PBXNativeTarget "MortalKombat" */;
+			buildPhases = (
+				84AAFF651A00DDDA004564AF /* Sources */,
+				84AAFF661A00DDDA004564AF /* Frameworks */,
+				84AAFF671A00DDDA004564AF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MortalKombat;
+			productName = MortalKombat;
+			productReference = 84AAFF691A00DDDB004564AF /* MortalKombat */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84AAFF611A00DDDA004564AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Admin;
+				TargetAttributes = {
+					84AAFF681A00DDDA004564AF = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 84AAFF641A00DDDA004564AF /* Build configuration list for PBXProject "MortalKombat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84AAFF601A00DDDA004564AF;
+			productRefGroup = 84AAFF6A1A00DDDB004564AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84AAFF681A00DDDA004564AF /* MortalKombat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84AAFF651A00DDDA004564AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84AAFF791A00E3F0004564AF /* Baraka.m in Sources */,
+				84AAFF7C1A00E425004564AF /* Cyrax.m in Sources */,
+				84AAFF821A00E464004564AF /* Goro.m in Sources */,
+				84AAFF6D1A00DDDB004564AF /* main.m in Sources */,
+				84AAFF761A00E10B004564AF /* Character.m in Sources */,
+				84AAFF7F1A00E43E004564AF /* Ermac.m in Sources */,
+				84AAFF851A00E489004564AF /* Jade.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		84AAFF6E1A00DDDB004564AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		84AAFF6F1A00DDDB004564AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		84AAFF711A00DDDB004564AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84AAFF721A00DDDB004564AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84AAFF641A00DDDA004564AF /* Build configuration list for PBXProject "MortalKombat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84AAFF6E1A00DDDB004564AF /* Debug */,
+				84AAFF6F1A00DDDB004564AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84AAFF701A00DDDB004564AF /* Build configuration list for PBXNativeTarget "MortalKombat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84AAFF711A00DDDB004564AF /* Debug */,
+				84AAFF721A00DDDB004564AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84AAFF611A00DDDA004564AF /* Project object */;
+}
